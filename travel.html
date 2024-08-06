@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="/styles_travel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97c2cfe72c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <a href="/index.html" class="logo">LIT PLANNER</a>
+    <div class="dropdown">
+        <button class="dropbtn">My Planner</button>
+        <div class="dropdown-content">
+            <a href="planner.html">Planner</a>
+            <a href="travel.html">Travel</a>
+            <a href="connect.html">Connect</a>
+            <a href="index.html">Log out</a>
+        </div>
+    </div>
+    <div class="bx bx-menu" id="menu-icon"></div>
+</header>
+
+<div class="hero-img">
+<br>  
+ <br>
+ <br>
+ <br>   
+          <a target="_blank" href="https://www.skyscanner.net/">
+          <button class="bookingbtn">Book a Trip</button>
+          </a>
+
+          <a target="_blank"   href="https://baboo.travel/build-my-trip?utm_source=google&utm_keyword=personalised%20itinerary&device=c&utm_campaign=20597617147&utm_term=157044312634&geo=9180999&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5OPOxzQJihKeulEoLBbUvv2aFnOXAzE_-H8sPfOtj13BUzVhPCh2fYaAuZpEALw_wcB&placement=&utm_medium=GoogleAds&gad_source=1">
+          <button class="itinerarybtn">Create New Itinerary</button>
+          </a>
+
+          <a target="_blank"   href="./events.html">
+          <button class="t_eventbtn">Find Tech Events Abroad</button>
+          </a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container1">
+<div class="card2">
+<h1>Travel Checklist </h1>
+<ul>
+<li>
+ <input type="checkbox"  id="passport"  name="passport">
+ <label for="passport">Check Passport Validity</label>
+</li>
+<li>
+ <input type="checkbox"   id="accomodation" name="accomodation">
+ <label for="accomodation">Reserve Accomodation</label>
+</li>
+<li>
+<input type="checkbox" id="insurance"   name="insurance">
+<label for="insurance">Purchase Travel Insurance</label>
+</li>
+ <li>
+<input type="checkbox"  id="transfers" name="transfers">
+<label for="transfers">Arrange Transfers</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<section style="background-color: purple; color: white;"> 
+    <div class="input-container">
+        <h4 class="hover-effect" style="color: white;background-color:purple ;">Set the countdown timer for your next trip</h4>
+        <form id="countdownForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <br>
+            <button class="submit" style="width: 100px;">Start Countdown</button>
+        </form>
+    </div>
+
+    <div class="countdown-container">
+        <h2 style="color: white;background-color: #838282;">Countdown to my next trip</h2>
+        <div class="countdown">
+            <div class="time-segment">
+                <span id="days">00</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="time-segment">
+                <span id="hours">00</span>
+                <span class="label">Hours</span>
+            </div> 
+            <div class="time-segment">
+                <span id="minutes">00</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="time-segment">
+                <span id="seconds">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+    </div>
+ <br>
+ <br>
+
+</section>
+
+<div id="carouselExampleIndicators" class="carousel slide"  data-bs-interval="5000"  data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000"> 
+            <div class="card" style="border:none ;">
+                <img src="images/silliconvalleyimg.jpg" class="card-img-top" alt="slide 1">
+                <div class="card-body">
+                    <h5 class="card-title">Silicon Valley, California USA</h5>
+                    <p class="card-text">Famous for being the tech capital of the world, Silicon Valley is the ideal place to update your insta or tik tok, and visit the Tech museum of innovation</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000" >
+            <div class="card">
+                <img src="images/sydneyaustraliaimg.jpg" class="card-img-top" alt="slide 2">
+                <div class="card-body">
+                    <h5 class="card-title">Sydney, Australia</h5>
+                    <p class="card-text">Explore the wonders of technology in Sydney, a place that is shaping modern technology and leading the way in coding and robotics</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <div class="card">
+                <img src="images/berlinimgjpg.jpg" class="card-img-top" alt="slide 3">
+                <div class="card-body">
+                    <h5 class="card-title">Berlin, Germany</h5>
+                    <p class="card-text">An attractive destination for tech savvy travelers, places of interest include the Game Science Centre and the Sony Store Headquarters.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+  </div>
+
+  <section>
+    <footer>
+      <h2>Plan. Connect. Inspire</h2>
+      <div class="socialmidia">
+        <a href="#"><i  class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+        <p>All Copyrights reserved &copy 2024 LIT - Leading Planner for Women in Tech</p>
+    </footer>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.esm.min.js" integrity="sha512-d72FC/JHBWPphMwKvOMutLxQv/M+VSeeT6ZBq8vTxbapiXFl9ppxK8OHaIzL4yujJK1UQ/+W/kkUjzTpPt1Ntg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="travel_script.js" ></script>
+
+</body>
+
+</html>

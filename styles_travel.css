@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Beiruti", sans-serif;
+  background-color: var(--r=purple);
+  
+ }
+ header {
+  position: fixed;
+  right: 0;
+  top:0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 9%;
+  background: transparent;
+  background-color: purple;
+ }
+
+ .logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+ }
+
+ .navlist {
+  display: flex;
+ }
+
+ .navlist a{
+  color: white;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+ }
+
+
+/* Dropdown button styling */
+.dropdown {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropbtn {
+  background-color: purple;
+  color: white;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+.bx.bx-menu {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* copied from slack */
+
+
+.header { 
+  position: fixed;
+  right: 0;
+  top:0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 9%;
+  background: transparent;
+  background-color: purple;
+  
+}
+
+div.hero-img {
+background-image: url(/images/beachtraveling\ .jpg);  
+background-size: cover;
+height: 100vh;
+width: 100%;
+display: block;
+background-repeat: no-repeat;
+padding-top: 30px;
+}
+
+
+.container1{
+margin-top: 20px;
+ 
+}
+
+body{
+background: purple;
+background-color: purple;
+}
+
+.bookingbtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-size: 24px;
+font-weight: bolder;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;
+}
+
+.itinerarybtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-weight: bolder;
+font-size: 24px;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;   
+}
+
+.t_eventbtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-size: 24px;
+font-weight: bolder;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;     
+}
+
+
+h1{
+height: fit-content;
+color: #282a2c; 
+font-weight:lighter; 
+font-family: "Beiruti", sans-serif;
+justify-content: center;
+align-items: center;
+text-align: left;
+text-shadow: none;
+margin: 0 0 0 20px;
+}
+
+
+h2{
+color: white; 
+font-weight: lighter; 
+font-stretch: wider;
+font-family: "Beiruti", sans-serif;
+text-align: center;  
+background-color: purple;
+
+}
+
+p{
+color: white; 
+font-weight: lighter; 
+font-stretch: wider;
+font-family: "Beiruti", sans-serif;
+text-align: center; 
+background-color: purple; 
+}
+
+
+li{
+list-style-type: none; 
+margin: 0; 
+font-family: "Beiruti",sans-serif;  
+color: black;
+font-weight: 200px;
+font-size: 20px;
+}
+
+.card2 {
+max-width: 250px;
+border-radius: 50px solid;
+justify-content: center;
+
+}
+
+  #eventForm {
+      top: 50%;
+      padding: 10px;
+  }
+  #message{
+      font-size: 16px;
+      padding: 20px;
+  }
+  .dropdown-content{
+      font-size: 18px;
+  }
+
+  section section-ctd {
+    height: 80vh;
+
+  }
+
+
+/* carousel styling */
+
+
+div.card-body{
+background-color: purple;    
+}
+
+h5.card-title {
+background-color: purple;
+color: white;
+}
+
+p.card-text {
+color: white; 
+text-align: justify; 
+max-width: 600px;
+font-size: 18px;  
+font-family: "Beiruti", sans-serif;
+}
+
+img.card-img-top{
+position: relative;
+width: 100%; 
+background-color: purple; 
+height: 300px; 
+border-radius: 12px; 
+display: block;
+margin: auto;
+
+}
+
+.card-img-top {
+max-width: 600px;
+height: 300px;
+background-color: purple;
+border-radius: 12px;
+align-items: center;
+}
+
+div.card {
+background-color: purple;    
+}
+
+h5.card-title {
+color: white;
+
+}
+
+.carousel-control-prev {
+color: white;  
+background-color: purple; 
+}
+
+.carousel-control-next {
+color: white;  
+background-color: purple;  
+}
+
+
+.carousel-item {
+display: flex;
+
+
+}
+.carousel-container {
+  overflow: hidden;
+  width: 80%;
+  padding-top: 30px;
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: purple;
+}
+
+.carousel-inner {
+  width: 100%;
+  background-color: purple;
+}
+
+.carousel-item {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px;
+  padding-top: 70px;
+  margin: auto;
+  border: none;
+  background-color: purple;
+}
+
+.card-img-top {
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  background-color: purple;
+}
+
+/* TIMER */
+
+section{
+  font-family:"Beiruti", sans-serif;
+  background-color: purple;
+  color: #fff;
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  }    
+
+h4{
+color: white;
+font-family: "Beiruti", sans-serif;
+text-align: left;
+font-weight: lighter;
+padding-right: 20px;
+
+}
+
+h4.hover-effect {
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+/* for the h4 tag when hovered */
+h4.hover-effect:hover {
+  color: #0091ff;
+  font-size: 2em;
+}
+
+.div.countdown {
+background-color: #212529; 
+font: white;
+
+}
+
+.countdown-container {
+text-align: center;
+background: #838282;
+padding: 20px;
+padding-left: 20px;
+padding-bottom: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+color:#4f4f4f;
+}
+
+.countdown h1 {
+margin-bottom: 20px;
+font-size: 24px;
+}
+
+.countdown {
+display: flex;
+justify-content: center;
+}
+
+.time-segment {
+margin: 0 10px;
+text-align: center;
+}
+
+.time-segment span {
+display: block;
+}
+
+#days { 
+font-size: 48px;
+font-weight: bold;
+color: white;
+}
+
+#hours{
+font-size: 48px;
+font-weight: bold;
+color: white;    
+}
+
+#minutes {
+font-size: 48px;
+font-weight: bold;
+color: white;    
+}    
+
+#seconds {
+font-size: 48px;
+font-weight: bold;
+color: white;     
+}
+
+
+#label {
+font-size: 18px;
+color: white;
+
+}
+
+#countdownForm {
+position: centre;
+display: flex;
+flex-direction: column;
+background-color: purple;
+}
+
+.StartCountdownbutton {
+width: 100px; 
+position: center;   
+display: flex;
+color: white;
+background-color: purple;
+border-radius: 5px;
+
+}
+
+input#time{
+width: 100px;
+display: flex;
+position: center;
+
+}
+
+input#date {
+width:100px ;
+display: flex;
+position: center;
+color: #aaa;
+
+}
+
+.submit {
+  border-radius: 10px;
+}
+
+#date .label {
+color: white;    
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  line-height: 1.6;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 7%;
+  }
+  
+  footer h2 {
+  font-size: 40px;
+  }
+  
+  footer p {
+  margin-top: 30px;
+  }
+  
+  .fa-brands {
+  padding-top: 20px;
+  padding-right: 30px;
+  }
+  
+  .socialmidia a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  .socialmidia a:hover {
+  color: black;
+  }
+
+ @media screen and (max-width: 700px) {
+  html {
+      font-size: 50%;
+  }
